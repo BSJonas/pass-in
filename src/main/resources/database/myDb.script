@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 392
+SET FILES CHECK 2150
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -58,3 +58,13 @@ INSERT INTO "flyway_schema_history" VALUES(1,'1','create-table-events','SQL','V1
 INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-attendees','SQL','V2__create-table-attendees.sql',1612960147,'SA','2024-04-05 16:14:16.922267',48,'1')
 INSERT INTO "flyway_schema_history" VALUES(3,'3','create table checkins','SQL','V3__create_table_checkins.sql',277259538,'SA','2024-04-05 16:16:18.133768',23,'1')
 INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',553901455,'SA','2024-04-05 16:19:15.303232',30,'1')
+INSERT INTO EVENTS VALUES('0743c003-ff80-471d-930f-ee504098af3b','Rocketseat NLW Unite 3.0','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite-30',50)
+INSERT INTO EVENTS VALUES('07dd7e30-e494-4d45-b392-1c3422e6df96','Rocketseat NLW','Aprenda Java de forma Gratuita','rocketseat-nlw',500)
+INSERT INTO EVENTS VALUES('17c3f7fe-7b52-498c-82aa-ba14634eb634','Rocketseat NLW 2','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-2',50)
+INSERT INTO EVENTS VALUES('18f5ae7e-8e9b-418e-8326-27204246f14a','Rocketseat NLW Unite 1','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite-1',1001)
+INSERT INTO EVENTS VALUES('3f4a52da-121a-4ec3-b4fa-8d4a2136fd0f','Rocketseat NLW Unite 3','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite-3',1000)
+INSERT INTO EVENTS VALUES('5a2733aa-07c7-4f8d-9b30-04996bdcff67','Rocketseat NLW Unite','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite',1000)
+INSERT INTO EVENTS VALUES('64a79f72-822d-4366-88d5-f574a7a4f8de','Rocketseat NLW Unite 2.0','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite-20',50)
+INSERT INTO EVENTS VALUES('85db2e1a-28d4-4236-9be5-ff77dda908ec','Rocketseat NLW Unite 2','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite-2',1000)
+INSERT INTO EVENTS VALUES('d7a1ed43-3daa-4287-8a0c-e59e367a61d5','Rocketseat NLW Unite 5','Aprenda v\u00e1rias tecnologias de forma Gratuita e online','rocketseat-nlw-unite-5',1000)
+INSERT INTO ATTENDEES VALUES('5a2733aa-07c7-4f8d-9b30-04996bdcff67','Jonas Sousa','jonasinfocamb@gmail.com','5a2733aa-07c7-4f8d-9b30-04996bdcff67',NULL)
